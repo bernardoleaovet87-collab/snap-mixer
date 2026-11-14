@@ -1,7 +1,7 @@
 {
-  "version": "0.9.24",
-  "asar": "updates/app-0.9.24.asar",
-  "size": 4199117,
-  "sha256": "5002f5c562d679a8aeda0a0ce22d1696522ccddd0835c364ddeda26eb7f655d8",
-  "notes": "- Automatic updates: Snap Mixer checks for new versions and installs them with one click.\n- Phone app 2.6 can update itself from the Me tab.\n- Version numbers on the phone (Me tab).\n- Prime tower fix for prints sent from the phone."
+  "version": "0.9.25",
+  "asar": "updates/app-0.9.25.asar",
+  "size": 4206428,
+  "sha256": "e1f3babc22e8da594a19cb3ce0f71efe61c51e23b1787ed0efa0422da66fc83b",
+  "notes": "- Load and Unload buttons are back under each filament in the phone app (Device tab).\n- The U1 does the load/unload by itself (heats, cuts, feeds); the phone shows Loading… / Unloading… and tells you if it fails."
 }
