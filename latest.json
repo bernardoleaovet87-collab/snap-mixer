@@ -1,7 +1,7 @@
 {
-  "version": "0.9.34",
-  "asar": "updates/app-0.9.34.asar",
-  "size": 4225237,
-  "sha256": "e14f68a0a35c7b20e7d5f6d4b330b662e8d11ff7d4d97d6478eb9f8a4c24bd80",
-  "notes": "- Each filament now shows if it is in the nozzle: \"\u25cf In nozzle\" (green) or \"\u25cb Unloaded\" (gray), read straight from the U1. It also shows a Load / Unload you did yesterday or on the printer's own screen.\n- Load is off for a toolhead that is already loaded, and Unload is off for one that is already unloaded.\n- While the U1 is loading or unloading by itself, you see \"Loading\u2026\" / \"Unloading\u2026\", and \"Feeder error\" if something goes wrong.\n- On the computer (Device tab) and in the phone app."
+  "version": "0.9.35",
+  "asar": "updates/app-0.9.35.asar",
+  "size": 4227867,
+  "sha256": "5680a426487ea0900c9e26ddd32f38a46b05b5fee8c278269cac8638478ef7f5",
+  "notes": "- Before printing from the phone, Snap Mixer checks the toolheads the plate uses. If one is unloaded, still loading, or has a different filament type than the model asks for (e.g. PETG instead of PLA), it warns you first: Print anyway or Cancel.\n- Also checked when you start a model that was already sliced.\n- When choosing colors, unloaded toolheads are faded and marked \"Unloaded\".\n- Slice only: just the filament type is checked, since you can load before tapping Print."
 }
