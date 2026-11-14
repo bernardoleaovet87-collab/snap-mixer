@@ -1,7 +1,7 @@
 {
-  "version": "0.9.25",
-  "asar": "updates/app-0.9.25.asar",
-  "size": 4206428,
-  "sha256": "e1f3babc22e8da594a19cb3ce0f71efe61c51e23b1787ed0efa0422da66fc83b",
-  "notes": "- Load and Unload buttons are back under each filament in the phone app (Device tab).\n- The U1 does the load/unload by itself (heats, cuts, feeds); the phone shows Loading… / Unloading… and tells you if it fails."
+  "version": "0.9.26",
+  "asar": "updates/app-0.9.26.asar",
+  "size": 4207320,
+  "sha256": "76386f03b6ca10d4f9ff139216d964d472d4f16cfb5b5151321b955cde7c4202",
+  "notes": "- Load and Unload buttons are back under each filament in the phone app (Device tab).\n- The U1 does the load/unload by itself; the phone shows Loading… / Unloading… and tells you if it fails.\n- Phone app older than 2.6: the Update button now explains the one-time install through Chrome."
 }
