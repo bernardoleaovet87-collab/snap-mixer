@@ -1,7 +1,7 @@
 {
-  "version": "0.9.33",
-  "asar": "updates/app-0.9.33.asar",
-  "size": 4221718,
-  "sha256": "bf3cdfa50eb00157374673a33924755665342fc0bef9960daf300d9e41451a6b",
-  "notes": "- Updates can't get stuck anymore: Snap Mixer saves each new version separately and just opens the newest one.\n- After installing, Snap Mixer restarts right away in the new version.\n- If a new version ever fails to open, Snap Mixer goes back to the one that works on its own.\n- Settings has a small \"Go back to the previous version\" link, in case an update has a problem.\n- \"What's new\" now opens here, inside Snap Mixer, instead of the GitHub page.\n- Load and Unload buttons under each filament, on the computer (Device tab) and in the phone app."
+  "version": "0.9.34",
+  "asar": "updates/app-0.9.34.asar",
+  "size": 4225237,
+  "sha256": "e14f68a0a35c7b20e7d5f6d4b330b662e8d11ff7d4d97d6478eb9f8a4c24bd80",
+  "notes": "- Each filament now shows if it is in the nozzle: \"\u25cf In nozzle\" (green) or \"\u25cb Unloaded\" (gray), read straight from the U1. It also shows a Load / Unload you did yesterday or on the printer's own screen.\n- Load is off for a toolhead that is already loaded, and Unload is off for one that is already unloaded.\n- While the U1 is loading or unloading by itself, you see \"Loading\u2026\" / \"Unloading\u2026\", and \"Feeder error\" if something goes wrong.\n- On the computer (Device tab) and in the phone app."
 }
