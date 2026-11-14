@@ -1,7 +1,7 @@
 {
-  "version": "0.9.29",
-  "asar": "updates/app-0.9.29.asar",
-  "size": 4210765,
-  "sha256": "fff0d6c8d344dcb636cce96723673c439f2789eebca837f064410ed3326d8a9c",
-  "notes": "- Load above Unload under each filament on the computer (tidier layout).\n- Updates now install silently: no more black command window while Snap Mixer restarts.\n- Load and Unload buttons under each filament \u2014 on the computer (Device tab) and in the phone app.\n- The U1 does the load/unload by itself; Snap Mixer shows Loading\u2026 / Unloading\u2026 and tells you if it fails.\n- Phone app older than 2.6: the Update button now explains the one-time install through Chrome."
+  "version": "0.9.30",
+  "asar": "updates/app-0.9.30.asar",
+  "size": 4211608,
+  "sha256": "679eab6c9b441826e41f466c40ec1d9b57ac53c0113bca1ca3c11b877a69c67c",
+  "notes": "- More reliable updates: waits until Snap Mixer has fully closed before swapping, and sees new versions right away.\n- Load above Unload under each filament on the computer (tidier layout).\n- Updates now install silently: no more black command window while Snap Mixer restarts.\n- Load and Unload buttons under each filament \u2014 on the computer (Device tab) and in the phone app.\n- The U1 does the load/unload by itself; Snap Mixer shows Loading\u2026 / Unloading\u2026 and tells you if it fails.\n- Phone app older than 2.6: the Update button now explains the one-time install through Chrome."
 }
