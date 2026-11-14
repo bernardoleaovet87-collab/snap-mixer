@@ -1,0 +1,7 @@
+{
+  "version": "0.9.24",
+  "asar": "updates/app-0.9.24.asar",
+  "size": 4199117,
+  "sha256": "5002f5c562d679a8aeda0a0ce22d1696522ccddd0835c364ddeda26eb7f655d8",
+  "notes": "- Automatic updates: Snap Mixer checks for new versions and installs them with one click.\n- Phone app 2.6 can update itself from the Me tab.\n- Version numbers on the phone (Me tab).\n- Prime tower fix for prints sent from the phone."
+}
