@@ -1,7 +1,7 @@
 {
-  "version": "0.9.26",
-  "asar": "updates/app-0.9.26.asar",
-  "size": 4207320,
-  "sha256": "76386f03b6ca10d4f9ff139216d964d472d4f16cfb5b5151321b955cde7c4202",
-  "notes": "- Load and Unload buttons are back under each filament in the phone app (Device tab).\n- The U1 does the load/unload by itself; the phone shows Loading… / Unloading… and tells you if it fails.\n- Phone app older than 2.6: the Update button now explains the one-time install through Chrome."
+  "version": "0.9.27",
+  "asar": "updates/app-0.9.27.asar",
+  "size": 4210357,
+  "sha256": "2b7e8e28448bf0e4730cb4e92df139bb6f15b15b30de38edb6bf4bd856b9734c",
+  "notes": "- Load and Unload buttons under each filament — on the computer (Device tab) and in the phone app.\n- The U1 does the load/unload by itself; Snap Mixer shows Loading… / Unloading… and tells you if it fails.\n- Phone app older than 2.6: the Update button now explains the one-time install through Chrome."
 }
