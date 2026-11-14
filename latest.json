@@ -1,7 +1,7 @@
 {
-  "version": "0.9.31",
-  "asar": "updates/app-0.9.31.asar",
-  "size": 4215449,
-  "sha256": "8e7da8756a4d824f2bf6d9c45ad9000111cd9b7a53e84084e2e537de1a78e76c",
-  "notes": "- Settings: a small \"Go back to the previous version\" link, in case an update has a problem.\n- More reliable updates: waits until Snap Mixer has fully closed before swapping, and sees new versions right away.\n- Load above Unload under each filament on the computer (tidier layout).\n- Updates now install silently: no more black command window while Snap Mixer restarts.\n- Load and Unload buttons under each filament \u2014 on the computer (Device tab) and in the phone app.\n- The U1 does the load/unload by itself; Snap Mixer shows Loading\u2026 / Unloading\u2026 and tells you if it fails.\n- Phone app older than 2.6: the Update button now explains the one-time install through Chrome."
+  "version": "0.9.32",
+  "asar": "updates/app-0.9.32.asar",
+  "size": 4219613,
+  "sha256": "863e6f14013de145cd38ef5078f38d2a963788caa9fa8ba2fcece9edc5c5bd98",
+  "notes": "- Updates can no longer get stuck: each new version is saved as its own file and Snap Mixer simply opens the newest one. Nothing in use has to be replaced, so another program holding Snap Mixer's files can't block an update anymore.\n- Updates restart Snap Mixer right away, with no helper running in the background.\n- If a new version ever fails to open, Snap Mixer goes back to the one that works by itself.\n- \"Go back to the previous version\" keeps working, and going forward again later is instant (no new download).\n- Includes everything from 0.9.31: go back to the previous version, Load/Unload buttons under each filament."
 }
