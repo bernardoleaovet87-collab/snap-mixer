@@ -1,7 +1,7 @@
 {
-  "version": "0.9.35",
-  "asar": "updates/app-0.9.35.asar",
-  "size": 4227867,
-  "sha256": "5680a426487ea0900c9e26ddd32f38a46b05b5fee8c278269cac8638478ef7f5",
-  "notes": "- Before printing from the phone, Snap Mixer checks the toolheads the plate uses. If one is unloaded, still loading, or has a different filament type than the model asks for (e.g. PETG instead of PLA), it warns you first: Print anyway or Cancel.\n- Also checked when you start a model that was already sliced.\n- When choosing colors, unloaded toolheads are faded and marked \"Unloaded\".\n- Slice only: just the filament type is checked, since you can load before tapping Print."
+  "version": "0.9.36",
+  "asar": "updates/app-0.9.36.asar",
+  "size": 4249343,
+  "sha256": "a1af505bb6897b75108d2dc359e8a209bd067a455bd62f1b588995294b5a59c8",
+  "notes": "- Several printers: add each U1 with a name and its IP in Settings \u2192 Printers (e.g. \"U1 Quarto\", \"U1 Sala\"). Your current U1 is already there as \"My U1\" \u2014 rename it if you like.\n- Bambu Handy style selector: on the phone, tap the printer name at the top to switch; on the computer, use the list at the top of the Device tab. Camera, filaments, temperatures and controls follow the printer you pick.\n- Choose the printer for each plate: when you print a plate, pick which U1 prints it. Its filaments load right away, so the colors match that printer.\n- Two plates of the same project can print at the same time on two printers, each with its own Stop button.\n- Alerts (phone, Telegram, computer) say which printer finished or had a problem. /status and /photo on Telegram show every printer."
 }
