@@ -1,7 +1,7 @@
 {
-  "version": "0.9.37",
-  "asar": "updates/app-0.9.37.asar",
-  "size": 4251611,
-  "sha256": "3c516accd68b592b56a3ea49033ff52c73fc250e55cae1fc3521ce57d1a62863",
-  "notes": "- Choose colors now has a Printer list when you have more than one U1: pick U1 2 (or any other) and the window loads that printer's filaments and suggests the colors again.\n- The button and the hints say which U1 they mean (e.g. \"Filaments on U1 2\").\n- When you open in the slicer, the file remembers that printer, so printing it later goes to the same U1.\n- New heads-up when one model mixes materials that don't bond well, like PLA + PETG."
+  "version": "0.9.38",
+  "asar": "updates/app-0.9.38.asar",
+  "size": 4252210,
+  "sha256": "4cf3eb7cd9bc71c49f8ad0bf120949758e772315b53ada88f2497a2460a5123a",
+  "notes": "- Camera fix: if a U1's camera wasn't ready when Snap Mixer first looked (for example a printer that had just been turned on), it stayed \"Camera not available\" until you restarted the app. Now it keeps trying every 20 seconds and shows up on its own.\n- Includes everything from 0.9.37: Printer list in Choose colors, and the PLA + PETG heads-up."
 }
