@@ -1,7 +1,7 @@
 {
-  "version": "0.9.36",
-  "asar": "updates/app-0.9.36.asar",
-  "size": 4249343,
-  "sha256": "a1af505bb6897b75108d2dc359e8a209bd067a455bd62f1b588995294b5a59c8",
-  "notes": "- Several printers: add each U1 with a name and its IP in Settings \u2192 Printers (e.g. \"U1 Quarto\", \"U1 Sala\"). Your current U1 is already there as \"My U1\" \u2014 rename it if you like.\n- Bambu Handy style selector: on the phone, tap the printer name at the top to switch; on the computer, use the list at the top of the Device tab. Camera, filaments, temperatures and controls follow the printer you pick.\n- Choose the printer for each plate: when you print a plate, pick which U1 prints it. Its filaments load right away, so the colors match that printer.\n- Two plates of the same project can print at the same time on two printers, each with its own Stop button.\n- Alerts (phone, Telegram, computer) say which printer finished or had a problem. /status and /photo on Telegram show every printer."
+  "version": "0.9.37",
+  "asar": "updates/app-0.9.37.asar",
+  "size": 4251611,
+  "sha256": "3c516accd68b592b56a3ea49033ff52c73fc250e55cae1fc3521ce57d1a62863",
+  "notes": "- Choose colors now has a Printer list when you have more than one U1: pick U1 2 (or any other) and the window loads that printer's filaments and suggests the colors again.\n- The button and the hints say which U1 they mean (e.g. \"Filaments on U1 2\").\n- When you open in the slicer, the file remembers that printer, so printing it later goes to the same U1.\n- New heads-up when one model mixes materials that don't bond well, like PLA + PETG."
 }
