@@ -1,7 +1,7 @@
 {
-  "version": "0.9.38",
-  "asar": "updates/app-0.9.38.asar",
-  "size": 4252210,
-  "sha256": "4cf3eb7cd9bc71c49f8ad0bf120949758e772315b53ada88f2497a2460a5123a",
-  "notes": "- Camera fix: if a U1's camera wasn't ready when Snap Mixer first looked (for example a printer that had just been turned on), it stayed \"Camera not available\" until you restarted the app. Now it keeps trying every 20 seconds and shows up on its own.\n- Includes everything from 0.9.37: Printer list in Choose colors, and the PLA + PETG heads-up."
+  "version": "0.9.39",
+  "asar": "updates/app-0.9.39.asar",
+  "size": 4255038,
+  "sha256": "1e85108d536b7304288f5038cc43ef0f09e5f8189ae2d237412bd9d8e3ad4d67",
+  "notes": "- Camera fix for new U1s: the U1 only turns its camera image on when an app asks for it (Snapmaker Orca used to do that). Snap Mixer now asks by itself, so a U1 that never connected to Orca shows its camera too, and it keeps the camera awake while you watch.\n- Camera keeps retrying instead of giving up.\n- Printer list in Choose colors, and the PLA + PETG heads-up."
 }
