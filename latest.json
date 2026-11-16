@@ -1,7 +1,7 @@
 {
-  "version": "0.9.39",
-  "asar": "updates/app-0.9.39.asar",
-  "size": 4255038,
-  "sha256": "1e85108d536b7304288f5038cc43ef0f09e5f8189ae2d237412bd9d8e3ad4d67",
-  "notes": "- Camera fix for new U1s: the U1 only turns its camera image on when an app asks for it (Snapmaker Orca used to do that). Snap Mixer now asks by itself, so a U1 that never connected to Orca shows its camera too, and it keeps the camera awake while you watch.\n- Camera keeps retrying instead of giving up.\n- Printer list in Choose colors, and the PLA + PETG heads-up."
+  "version": "0.9.40",
+  "asar": "updates/app-0.9.40.asar",
+  "size": 4266261,
+  "sha256": "6e57e1b05051a9127dcb582ce0e8b2b03025142d24c7468fa0a5c1b4fb75cdb6",
+  "notes": "- All printers at once: see every U1's camera, status and progress side by side. On the computer: Device tab → \"All printers\". On the phone: the \"All\" button at the top (or \"See all printers at once\" in the printer list). Tap a printer to open it.\n- A U1 that is printing can't receive anything new: it is locked in the printer list, and Snap Mixer refuses to slice, send or start a file for it until that print ends. If the printer you open is busy and another one is free, the free one is picked for you.\n- The U1 camera turns on by itself (no Snapmaker Orca needed)."
 }
